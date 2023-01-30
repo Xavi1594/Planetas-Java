@@ -80,4 +80,15 @@ public class Planeta {
         return observable;
     
 }
+
+public double calculo_distancia_al_sol(double masa, double volumen) {
+    return masa / volumen;
+  }
+  public boolean es_exterior(int distanciaAlSol) {
+if (distanciaAlSol >149597870 ) { return false;}
+else return true;
+
+
+  
+}
 }
